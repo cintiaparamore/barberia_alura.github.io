@@ -67,7 +67,7 @@ td, th{border: 1px solid black; padding: 8px 15px;}
     nav{
         position: static;
     }
-    .caja,.form,.enviar, .productos,.productos li, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+    .caja,.form,.enviar, .productos,.productos li,.banner, .principal, .mapa-contenido, .contenido-diferenciales, .video{
         width: auto;
     }
     .lista-diferenciales, .imagen-diferenciales{
