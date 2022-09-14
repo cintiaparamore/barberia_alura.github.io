@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Barberia Alura</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1><img src="imagenes/logo-blanco.png" alt="logo de la Barberia Alura"/></h1>
+            <nav>
+                <ul class="navegacion">
+                    <!--a, crea un enlace a otras pag de internet, archivos o ubicaciones dentro de una misma pag-->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form action="">
+
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required> <!---Required, campo obligatorio-->
+
+            <label for="correoelectronico">Correo Electronico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+            <label for="telefono">Telefono</label> <!--etiqueta de la casilla de texto-->
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX"> <!--casilla para llenar con texto-->
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="" id="mensaje" class="input-padron" required cols="70" rows="10"></textarea>
+
+            <fieldset> <!--utilizamos esta etiqueta para indicar que este sector pertenecen a la mismo grupo que la otra-->
+                <legend>¿Cómo le gustaria que lo contactemos? &#129300;</legend>
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                 <!--casilla para seleccion multiple-->
+    
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+                
+    
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                
+            </fieldset>
+
+            <fieldset>
+
+                <legend>¿En cuál horario prefieres ser atendido?</legend>
+                <select>
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+
+            </fieldset>
+
+          <label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de la Barberia Alura?</label>
+            <input type="submit" value="Enviar Formulario" class="enviar">
+
+        </form>
+        <table> <!---Tabla de Horario-->
+            <thead> <!--encabezado de la tabla-->
+                <tr><!---Crear Fila en una tabla-->
+                    <th>Dias</th> <!--celda-->
+                    <th>Horario</th>
+                </tr> 
+            </thead>
+            <tbody> <!--cuerpo de la tabla-->
+                <tr>
+                    <td>Lunes</td>
+                    <td>08hs - 20hs</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>08hs - 20hs</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>08hs - 20hs</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </main>
+    <footer> <!--pie de pagina-->
+        <img src="imagenes/logo-blanco.png" alt="logo de la Barberia Alura">
+        <p class="copyright">&copy Copyright Barberia Alura - 2022</p>
+    </footer>
+</body>
+
+</html>
