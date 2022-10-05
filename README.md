@@ -1,6 +1,6 @@
 
 <h1 align="center">Barberia Alura by Carrasco Cintia Veronica</h1>
-<h3 align="">Modelo de Pagina Web realizado en el Programa Oracle Next Education G3 + Alura Latam del año 2022.</h3>
+<h3 align="">Pagina Web realizado en el Programa Oracle Next Education G3 + Alura Latam del año 2022.</h3>
 
 
 <h4 align="left">Herramientas Utilizadas:</h4>
